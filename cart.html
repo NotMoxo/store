@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cart | Store Name</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site"><div class="wrap">
+    <a class="brand" href="index.html" data-store-name>Store Name</a>
+    <nav><a href="index.html">Shop</a><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></nav>
+  </div></header>
+
+  <main class="wrap">
+    <h1>Your cart</h1>
+    <div id="cart"></div>
+  </main>
+
+  <footer class="site"><div class="wrap">
+    <a href="privacy.html">Privacy policy</a><a href="terms.html">Terms and conditions</a>
+    <span>&copy; <span data-store-name>Store Name</span></span>
+  </div></footer>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

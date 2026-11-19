@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flowersta | Shop</title>
+    <meta
+      name="description"
+      content="TODO: Selling the best flowers in town."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap">
+        <a class="brand" href="index.html" data-store-name>Flowersta</a>
+        <nav>
+          <a href="index.html">Shop</a>
+          <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <h1>The Best Flowers in Town</h1>
+            <p>
+              Order online and get them delivered to your door. Fresh flowers,
+              hand-picked and arranged with care.
+            </p>
+            <a class="btn" href="#catalog">Shop Now</a>
+          </div>
+          <img
+            class="hero-img fade"
+            src="images/Blue-Lily.jpg"
+            alt="Bouquet of blue lilies wrapped in navy paper"
+          />
+        </div>
+      </section>
+
+      <div class="wrap">
+        <h2 class="section" id="shop">Products</h2>
+        <div class="grid" id="catalog"></div>
+      </div>
+    </main>
+
+    <footer class="site">
+      <div class="wrap">
+        <a href="privacy.html">Privacy policy</a
+        ><a href="terms.html">Terms and conditions</a>
+        <span>&copy; <span data-store-name>Store Name</span></span>
+      </div>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
