@@ -173,8 +173,6 @@
     });
   }
 
-  // Cart events are bound once on the container. Binding inside renderCart()
-  // would stack a new listener on every render and make one click run several times.
   function bindCart(root) {
     if (cartBound) return;
     cartBound = true;
@@ -269,7 +267,6 @@
       .addEventListener("click", startCheckout);
   }
 
-  // TODO: connect real payments. See README.md, "Wiring up checkout".
   function startCheckout() {
     alert("This is a demo store. Checkout is not implemented.");
   }

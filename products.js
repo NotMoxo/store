@@ -1,5 +1,3 @@
-// Replace these with the client's real products.
-// Prices are in the smallest display unit you choose; CURRENCY controls the symbol.
 window.STORE = {
   name: "flowersta",
   currency: "$",
@@ -12,8 +10,7 @@ window.PRODUCTS = [
     name: "Red Flowers",
     price: 25.0,
     image: "images/Red-Flower.jpg",
-    description:
-      "Replace with the real product description: materials, size, what it is used for.",
+    description: "Beautiful red flowers perfect for any occasion.",
     variants: ["Small", "Medium", "Large"],
   },
   {
@@ -21,7 +18,7 @@ window.PRODUCTS = [
     name: "Blue Lily",
     price: 40.0,
     image: "images/Blue-Lily.jpg",
-    description: "Replace with the real product description.",
+    description: "A beautiful blue lily flower.",
     variants: [],
   },
   {
@@ -29,7 +26,7 @@ window.PRODUCTS = [
     name: "Green Plant",
     price: 18.5,
     image: "images/Green-Plant.jpg",
-    description: "Replace with the real product description.",
+    description: "A healthy green plant for your home.",
     variants: ["Black", "White"],
   },
 ];
